@@ -1,0 +1,14 @@
+#boxs{
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        justify-content: space-between;
+        padding: 50px 0;
+        .box {
+            border: 1px solid orangered;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

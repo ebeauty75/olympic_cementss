@@ -1,0 +1,79 @@
+@media (max-width:1250px){
+    #boxs{
+        .boxs{
+            display: grid;
+            grid-template-columns: repeat(2, 400px);
+            justify-content: space-around;
+            grid-gap: 50px;
+        }
+    }
+    main .main{
+        padding: 50px 20px;
+        ol, ul{
+            margin-left: 20px;
+        }
+    }
+}
+@media (max-width:950px){
+    header{
+        .header{
+            grid-template-columns: auto;
+            justify-content: center;
+            #brand{
+                width: 300px;
+                margin: auto;
+            }
+            nav ul{
+                flex-flow: wrap;
+                justify-content: center;
+            }
+        }
+    }
+    .simple-slider {
+        .slider-slide {
+            .slidecontent{
+                position: absolute;
+                bottom: 0%;
+                left: 0%;
+                padding: 0px 30px;
+            }
+        }
+    }
+    #boxs{
+        .boxs{
+            grid-template-columns: repeat(1, 400px);
+        }
+    }
+    main .main{
+        .juliasms, .anikasms{
+            grid-template-columns: auto;
+            .juliaphoto, .anikaphoto{
+                grid-area: 1;
+                width: 300px;
+            }
+        }
+    }
+}
+@media (max-width:500px){
+    #boxs{
+        .boxs{
+            grid-template-columns: repeat(1, 300px);
+        }
+    }
+    .simple-slider {
+        .slider-slide {
+            .slidecontent{
+                padding: 0;
+            }
+        }
+    }
+    footer{
+        .footer{
+            display: block;
+            text-align: center;
+            p{
+                margin: 10px 0;
+            }
+        }
+    }
+}
